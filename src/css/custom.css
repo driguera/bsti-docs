@@ -1,0 +1,94 @@
+:root {
+  --ifm-color-primary: #E8710A;
+  --ifm-color-primary-dark: #D1650A;
+  --ifm-color-primary-darker: #C45F09;
+  --ifm-color-primary-darkest: #A64F08;
+  --ifm-color-primary-light: #EA7E1D;
+  --ifm-color-primary-lighter: #EC8B30;
+  --ifm-color-primary-lightest: #F1A45B;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(232, 113, 10, 0.1);
+}
+
+[data-theme='dark'] {
+  /* Primária — laranja BSTI mais brilhante no escuro */
+  --ifm-color-primary: #F0882A;
+  --ifm-color-primary-dark: #E8710A;
+  --ifm-color-primary-darker: #D96809;
+  --ifm-color-primary-darkest: #B85808;
+  --ifm-color-primary-light: #F29540;
+  --ifm-color-primary-lighter: #F4A256;
+  --ifm-color-primary-lightest: #F8BB82;
+
+  /* Backgrounds — mesma paleta do sistema BSTI */
+  --ifm-background-color: #111111;
+  --ifm-background-surface-color: #1a1a1a;
+  --ifm-card-background-color: #1a1a1a;
+
+  /* Navbar — idêntica ao topo do sistema */
+  --ifm-navbar-background-color: #0d0d0d;
+  --ifm-navbar-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.08);
+  --ifm-navbar-link-color: #e0e0e0;
+  --ifm-navbar-link-hover-color: #F0882A;
+
+  /* Sidebar */
+  --ifm-sidebar-background-color: #161616;
+  --ifm-menu-color: #c0c0c0;
+  --ifm-menu-color-active: #F0882A;
+  --ifm-menu-color-background-active: rgba(240, 136, 42, 0.12);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
+
+  /* Conteúdo */
+  --ifm-color-content: #e8e8e8;
+  --ifm-color-content-secondary: #a0a0a0;
+  --ifm-heading-color: #ffffff;
+
+  /* Bordas e separadores */
+  --ifm-toc-border-color: #2a2a2a;
+  --ifm-hr-border-color: #2a2a2a;
+  --ifm-table-border-color: #2a2a2a;
+  --ifm-color-emphasis-300: #2a2a2a;
+
+  /* Código */
+  --ifm-code-background: #1e1e1e;
+  --docusaurus-highlighted-code-line-bg: rgba(240, 136, 42, 0.15);
+
+  /* Footer */
+  --ifm-footer-background-color: #0d0d0d;
+  --ifm-footer-color: #a0a0a0;
+  --ifm-footer-link-color: #c0c0c0;
+  --ifm-footer-link-hover-color: #F0882A;
+}
+
+/* Breadcrumb sutil */
+[data-theme='dark'] .breadcrumbs__link {
+  color: #808080;
+}
+
+/* Navegação anterior/próxima */
+[data-theme='dark'] .pagination-nav__link {
+  border-color: #2a2a2a;
+  background-color: #1a1a1a;
+}
+
+[data-theme='dark'] .pagination-nav__link:hover {
+  border-color: #F0882A;
+}
+
+/* Scrollbar no estilo do sistema */
+[data-theme='dark'] ::-webkit-scrollbar {
+  width: 6px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #E8710A;
+}
