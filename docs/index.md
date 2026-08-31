@@ -34,7 +34,7 @@ Se você acabou de assinar o BSTI, siga a sequência abaixo. Leva menos de
 
 ### Controlar o financeiro
 - [Ver o que os clientes me devem](./financeiro/contas-a-receber)
-- [Registrar um pagamento recebido](./financeiro/contas-a-receber#registrando-um-recebimento-dar-baixa)
+- [Registrar um pagamento recebido](./financeiro/contas-a-receber)
 - [Controlar contas a pagar](./financeiro/contas-a-pagar)
 - [Acompanhar o caixa](./financeiro/caixa)
 
