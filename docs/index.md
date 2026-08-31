@@ -62,7 +62,7 @@ Se você acabou de assinar o BSTI, siga a sequência abaixo. Leva menos de
 | [Estoque e Compras](./estoque-e-compras/acompanhando-o-estoque) | Controle de estoque e pedidos de compra |
 | [Tabelas de Preço](./tabelas-de-preco/criando-tabelas) | Preços diferenciados por cliente |
 | [Relatórios](./relatorios/dre-gerencial) | DRE e Curva ABC |
-| [Programa de Fidelidade](./programa-de-fidelidade/programa-de-fidelidade) | Acúmulo e resgate de pontos |
+| [Programa de Fidelidade](./programa-de-fidelidade/programa-de-fidelidade.md) | Acúmulo e resgate de pontos |
 | [Configurações](./configuracoes/usuarios-e-permissoes) | Usuários, permissões e parâmetros |
 
 ---
